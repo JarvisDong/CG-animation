@@ -21,5 +21,5 @@ to encode these images to video
 
 `ffmpeg -r 1/5 -i frame%03d.png -c:v libx264 -vf fps=24 -pix_fmt yuv420p out.mp4`
 
-
+ 
 
